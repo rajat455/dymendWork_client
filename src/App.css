@@ -1,0 +1,23 @@
+.tbl:first-child{
+  max-width: calc(100vw - 24px);
+}
+
+label{
+  font-size: 14px;
+}
+.drawer a{
+  display: inline-block;
+  width: 100%;
+  color: inherit;
+  text-decoration: none;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield; /* Firefox */
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
